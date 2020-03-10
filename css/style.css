@@ -1,0 +1,167 @@
+body {
+background: url(https://zupimages.net/up/20/11/ai69.png);
+background-size: cover;
+width: 100%;
+height: 100%
+}
+
+/* ---------- SEARCH ---------- */
+
+.searchBar{
+    height: 3em;
+    background-color: #4e27cb;
+}
+
+.navBar{
+    height: 5em;
+    background-color: black;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+    
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 50%;
+    transition: width 0.4s linear;
+}
+        
+.searchbar:hover > .search_icon{
+    background: black;
+    color: #4e27cb;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+}
+
+/* --------- NAVBAR ---------- */
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #4e27cb;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: .5rem;
+}
+
+/* --------- FORM ---------- */
+
+#login .container #login-row #login-column #login-box {
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: white;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30%;
+    margin-top: 4%;
+}
+
+.img-fluid {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+::placeholder {
+    color: #aa98e6 !important;
+}
+
+.text-info2 {
+    color: black !important;
+    font-size: 10px;
+}
+
+.forgot {
+    padding-left: 20%;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.btn-co{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #6076c2;
+    border-color: none;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.text-info3 {
+    color: #d2c7ea!important;
+    font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+
+.navbar-expand-lg .navbar-collapse {
+    display: none;
+} 
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: none;
+    margin-top: 15%;
+}
+
+#login-column {
+    width: 100%;
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+  
